@@ -93,12 +93,12 @@ const Mission = () => {
 
             {/* Philosophy row */}
             <div className="row">
-              <div className="col mt-3">
-                <h2 className="text-start heading" data-aos="fade-down">
+              <div className="col mt-3 text-center">
+                <h2 className="text-md-start heading" data-aos="fade-down">
                   our <span>philosophy</span>
                 </h2>
                 <ul>
-                  <p className="lead text-center">
+                  <p className="lead ">
                     Driven by our core values of integrity and commitment to
                     professionalism in our service, creative concepts and the
                     integrated team work to deliver, Upper Level Security
@@ -126,7 +126,7 @@ const Mission = () => {
             </div>
           </div>
 
-          <p className="lead text-center fs-5 fst-italic">{quote}</p>
+          <p className="quote text-center fst-italic">{quote}</p>
         </div>
       </div>
     </section>

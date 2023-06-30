@@ -45,14 +45,14 @@ const Carousel = () => {
             placeholder="blur"
             priority
           />
-          <div className="carousel-caption">
-            <h1 className="text-uppercase display-2 fw-semibold">
-              upper level security
+          <div className="carousel-caption mb-5">
+            <h1 className="carousel-heading mb-3">
+              upper level <span>security</span>
             </h1>
             <p className="text-white fst-italic">{quote1}</p>
             <Link
               href="#contact"
-              className="btn btn-primary text-uppercase  mt-5 mb-5"
+              className="btn btn-primary text-uppercase  mt-4 mb-5"
             >
               get quote
             </Link>
@@ -67,14 +67,14 @@ const Carousel = () => {
             alt="Upper Level Security, Security company in Brakpan"
             loading="lazy"
           />
-          <div className="carousel-caption">
-            <h1 className="text-uppercase display-2 fw-semibold">
-              upper level security
+          <div className="carousel-caption mb-5">
+            <h1 className="carousel-heading mb-3">
+              upper level <span>security</span>
             </h1>
             <p className="text-white fst-italic">{quote2}</p>
             <Link
               href="#contact"
-              className="btn btn-primary text-uppercase mt-5 mb-5"
+              className="btn btn-primary text-uppercase  mt-4 mb-5"
             >
               get quote
             </Link>
@@ -89,14 +89,14 @@ const Carousel = () => {
             alt="Upper Level Security, Security company in Brakpan"
             loading="lazy"
           />
-          <div className="carousel-caption">
-            <h1 className="text-uppercase display-2 fw-semibold">
-              upper level security
+          <div className="carousel-caption mb-5">
+            <h1 className="carousel-heading mb-3">
+              upper level <span>security</span>
             </h1>
             <p className="text-white fst-italic">{quote3}</p>
             <Link
               href="#contact"
-              className="btn btn-primary text-uppercase  mt-5 mb-5"
+              className="btn btn-primary text-uppercase  mt-4 mb-5"
             >
               get quote
             </Link>

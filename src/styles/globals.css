@@ -78,16 +78,43 @@
 * {
   margin: 0;
   padding: 0;
+  transition: 0.2s linear;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 75px;
+  /* scroll-padding: 75px; */
+  scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5rem;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
 }
 
 body {
   font-family: "Avenir";
   font-size: 16px !important;
+  background: #f9f9f9 !important;
 }
 
 /* HANDLE SPACE WHEN BOOTSTRAP NAV IS FIXED-TOP */
@@ -964,6 +991,18 @@ img {
   font-size: 16px !important;
 }
 
+/* CAROUSEL STYLES */
+
+.carousel-heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.carousel-heading span {
+  color: var(--primary-color);
+}
+
 /* INTRO */
 
 .introSection {
@@ -1007,7 +1046,8 @@ img {
   font-size: 35px;
 }
 
-/* MISSION */
+/* ABOUT SECTION */
+
 .box-vision {
   position: relative;
   display: flex;
@@ -1020,19 +1060,14 @@ img {
   width: 18rem;
 }
 
-/* .box-vision .about-img {
-  border-radius: 15rem 15rem 0 0 !important;
-} */
-
 .box-vision .graphic {
-  width: 18rem;
   height: 15rem;
   background: var(--bronze-color);
   border-radius: 15rem 15rem 0 0;
   position: absolute;
   bottom: 0;
-  left: 52px;
-  right: 0;
+  left: 2.5rem;
+  right: 2.5rem;
   opacity: 0.9;
   /* ellipse */
   display: flex;
@@ -1056,11 +1091,8 @@ img {
   margin-bottom: 2rem;
 }
 
-/* ABOUT SECTION */
-
-.aboutSection {
-  /* background: #f9f9f9; */
-  margin-bottom: 5px;
+.quote {
+  font-weight: 300;
 }
 
 /* ASSURANCE STYLES */
