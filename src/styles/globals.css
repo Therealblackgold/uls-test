@@ -132,18 +132,6 @@ section {
   padding: 5em 0 5em 0;
 }
 
-.executiveSection,
-.aboutSection {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.956),
-      rgba(255, 255, 255, 0.927)
-    ),
-    url("./../assets/bg-network.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .heading {
   font-family: "Avenir Black";
   text-transform: uppercase;
@@ -166,10 +154,6 @@ section {
   font-family: "Avenir Black";
   font-weight: 700;
   letter-spacing: 1px;
-}
-
-.lead {
-  font-weight: 400;
 }
 
 .btn {
@@ -258,13 +242,11 @@ section {
 
 .header h1 {
   text-transform: uppercase;
-  font-size: 3rem;
   color: var(--primary-color);
   text-shadow: 1px 1px 1px #000;
 }
 
 .header p {
-  font-size: 1.3rem;
   line-height: 1.3;
   text-shadow: 1px 1px 1px #000;
   padding-left: 0.2rem;
@@ -434,7 +416,6 @@ Mission component styles
 .assurance .surety {
   background-color: #222;
   color: white;
-  font-size: 20px;
   padding: 0.3rem;
   width: fit-content;
   border: 2px solid var(--primary-color);
@@ -464,7 +445,6 @@ Mission component styles
 .assurance-graphicx p {
   display: flex;
   align-content: center;
-  font-size: 20px;
   font-weight: 700;
   font-style: italic;
   font-family: "Gideon Roman", cursive;
@@ -615,8 +595,7 @@ Team component styles
   justify-content: center;
 }
 
-.team .square h4,
-p {
+.team .square h4 {
   font-size: 20px;
 }
 
@@ -636,7 +615,6 @@ p {
 .services-graphic-x p {
   display: flex;
   align-content: center;
-  font-size: 2rem;
   font-weight: 900;
   font-style: italic;
   line-height: 2rem;
@@ -695,7 +673,6 @@ Training component styles
 .training-graphic-x p {
   display: flex;
   align-content: center;
-  font-size: 20px;
   font-weight: 700;
   font-style: italic;
   font-family: "Gideon Roman", cursive;
@@ -971,10 +948,6 @@ Footer component styles
     margin: 1px;
   }
 
-  .lead {
-    font-size: 16px !important;
-  }
-
   .contact-details span {
     display: flex;
     align-items: center;
@@ -1017,10 +990,6 @@ Footer component styles
   /* border-color: var(--primary-color); */
 }
 
-.testimonialsA .content {
-  font-size: 18px;
-}
-
 .testimonialsA .content p {
   text-align: center;
 }
@@ -1033,6 +1002,32 @@ Footer component styles
 .testimonialsA .carousel-control-prev-icon {
   background-color: var(--primary-color);
   border-radius: 50%;
+}
+
+/* NEW STYLES */
+
+.executiveSection,
+.aboutSection {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.956),
+      rgba(255, 255, 255, 0.927)
+    ),
+    url("./../assets/bg-network.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.introSection {
+  background: #f9f9f9;
+}
+
+.introSection {
+  margin-top: -3rem;
+}
+
+.lead {
+  font-size: 16px !important;
 }
 
 /* INTRO */
@@ -1049,7 +1044,6 @@ Footer component styles
 }
 
 .box-feat span {
-  font-size: 2rem;
   width: 90px;
   height: 90px;
   background: #fff;
@@ -1068,6 +1062,7 @@ Footer component styles
 
 .box-feat i {
   color: var(--primary-color);
+  font-size: 35px;
 }
 
 /* MISSION */
@@ -1076,12 +1071,12 @@ Footer component styles
 }
 
 .box-vision img {
-  /* border-radius: 15rem 15rem 0 0; */
+  border-radius: 15rem 15rem 0 0 !important;
   border-radius: 1rem;
   width: 18rem;
 }
 
-/* .box-vision .graphic {
+.box-vision .graphic {
   width: 18rem;
   height: 15rem;
   background: var(--bronze-color);
@@ -1090,4 +1085,5 @@ Footer component styles
   bottom: 0;
   left: 52px;
   right: 0;
-} */
+  opacity: 0.9;
+}

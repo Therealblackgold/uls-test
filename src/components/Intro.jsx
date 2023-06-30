@@ -18,34 +18,30 @@ const Intro = () => {
   }, []);
 
   return (
-    <div
-      id="intro"
-      className="introSection py-5"
-      style={{ background: "#F3F3F3", marginTop: "-3rem" }}
-    >
+    <div id="intro" className="introSection py-5">
       <div className="container">
         <div className="row">
           {/* item 1 */}
           <div className="col-lg-6">
             <div className="box-feat">
-              <span>
-                <i className="bi bi-shield-slash-fill"></i>
+              <span className="shadow">
+                <i class="bi bi-building-lock"></i>
               </span>
-              <h3>Home Security</h3>
-              <p className="lead text-muted">
+              <h3>Guarding Division</h3>
+              <ul className="lead text-muted">
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
-              </p>
+              </ul>
               <Link href="">Read More</Link>
             </div>
           </div>
           {/* item 2 */}
           <div className="col-lg-6">
             <div className="box-feat">
-              <span>
-                <i className="bi bi-shield-slash-fill"></i>
+              <span className="shadow">
+                <i class="bi bi-person-lock"></i>
               </span>
-              <h3>Home Security</h3>
+              <h3>Risk Management</h3>
               <p className="lead text-muted">
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
@@ -59,10 +55,10 @@ const Intro = () => {
           {/* item 1 */}
           <div className="col-lg-6">
             <div className="box-feat">
-              <span>
-                <i className="bi bi-shield-slash-fill"></i>
+              <span className="shadow">
+                <i class="bi bi-person-video3"></i>
               </span>
-              <h3>Home Security</h3>
+              <h3>Off-Site Monitoring</h3>
               <p className="lead text-muted">
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
@@ -73,10 +69,41 @@ const Intro = () => {
           {/* item 2 */}
           <div className="col-lg-6">
             <div className="box-feat">
-              <span>
-                <i className="bi bi-shield-slash-fill"></i>
+              <span className="shadow">
+                <i class="bi bi-pc-display-horizontal"></i>
               </span>
-              <h3>Home Security</h3>
+              <h3>Electronic Security</h3>
+              <p className="lead text-muted">
+                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
+                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
+              </p>
+              <Link href="">Read More</Link>
+            </div>
+          </div>
+        </div>
+        {/* End row */}
+        <div className="row">
+          {/* item 1 */}
+          <div className="col-lg-6">
+            <div className="box-feat">
+              <span className="shadow">
+                <i class="bi bi-person-vcard"></i>
+              </span>
+              <h3>Protection & Assessment</h3>
+              <p className="lead text-muted">
+                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
+                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
+              </p>
+              <Link href="">Read More</Link>
+            </div>
+          </div>
+          {/* item 2 */}
+          <div className="col-lg-6">
+            <div className="box-feat">
+              <span className="shadow">
+                <i class="bi bi-camera-video"></i>
+              </span>
+              <h3>Online CCTV Security</h3>
               <p className="lead text-muted">
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
