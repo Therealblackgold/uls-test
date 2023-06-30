@@ -1025,8 +1025,8 @@ img {
 }
 
 .box-feat span {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   background: #fff;
   border-radius: 50px;
   text-align: center;
@@ -1034,6 +1034,9 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box-feat a {
@@ -1043,7 +1046,7 @@ img {
 
 .box-feat i {
   color: var(--primary-color);
-  font-size: 35px;
+  font-size: 30px;
 }
 
 /* ABOUT SECTION */
