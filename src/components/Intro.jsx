@@ -18,102 +18,132 @@ const Intro = () => {
   }, []);
 
   return (
-    <div id="intro" className="introSection py-5">
-      <div className="container">
+    <section id="intro" className="intro">
+      <div className="container-fluid">
         <div className="row">
-          {/* item 1 */}
-          <div className="col-lg-6">
-            <div className="box-feat">
-              <span className="shadow">
-                <i class="bi bi-building-lock"></i>
-              </span>
-              <h3>Guarding Division</h3>
-              <ul className="lead text-muted">
-                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
-                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
-              </ul>
-              <Link href="">Read More</Link>
+          <div className="col-12 col-xl-4 intro-content text-center text-md-start px-lg-5">
+            <h2 className="text-center mb-3 heading">
+              EXECUTIVE <span>SUMMARY</span>
+            </h2>
+            <p className="lead" data-aos="fade-up">
+              Upper Level Security is a 100% blacked owned company with a Level
+              three (3) BEE certification.
+            </p>
+            <p className="lead" data-aos="fade-up">
+              In the current political climate, with increasing fears of
+              criminal activity, and the current economic climate, where
+              unemployment is ever increasing and many young people are
+              resorting to crime to fulfill their financial needs, every
+              business must be protected by an acute security company which is
+              dedicated and well prepared to prevent crime.
+            </p>
+            <p className="lead" data-aos="fade-up">
+              Providing the ultimate in customer services and satisfaction along
+              with building long term relationships with our clients is the
+              cornerstone of our business. Upper Level Security has a reputation
+              of completing its projects professionally, in time and within the
+              specified budget. We specialize in all aspects of security
+              including guarding division and investigations.
+            </p>
+            <p className="lead" data-aos="fade-up">
+              The company strongly emphasizes the “satisfaction guaranteed”
+              motto and works on a collaborative basis with staff and clients
+            </p>
+            <Link
+              href="mailto:mmohau1@gmail.com"
+              target="_blank"
+              className="btn btn-primary mx-auto mx-md-0"
+              style={{ width: "10rem" }}
+              data-aos="zoom-in"
+            >
+              <i className="bi bi-chevron-right"></i>get quote
+            </Link>
+
+            {/* MOBILE IMG */}
+            <div className="col-md d-md-none mt-5 text-center">
+              <Image
+                src={IMG20}
+                alt="Upper Level Security, Security company in Brakpan"
+                style={{
+                  height: "15rem",
+                  borderRadius: "20px",
+                }}
+              />
             </div>
           </div>
-          {/* item 2 */}
-          <div className="col-lg-6">
-            <div className="box-feat">
-              <span className="shadow">
-                <i class="bi bi-person-lock"></i>
-              </span>
-              <h3>Risk Management</h3>
-              <p className="lead text-muted">
-                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
-                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
-              </p>
-              <Link href="">Read More</Link>
+
+          {/* TWO EMPTY DIV */}
+          <div className="col-md-3"></div>
+          {/* THREE */}
+          <div className="col-12 col-xl-5 intro-content text-center text-md-start mt-5 mt-lg-0 px-lg-5">
+            <h2 className="heading mb-3 text-center">
+              our <span>history</span>
+            </h2>
+            <p className="lead" data-aos="fade-up">
+              After realizing that in this industry, every company is doing
+              things the same way, lack of innovation in the industry was the
+              birth of Upper Level Security.
+            </p>
+            <p className="lead" data-aos="fade-up">
+              The founder of the company (Mohau Richard Mokoena) started working
+              in the security industry as a security guard, thats when the
+              desire to improve the standard of private security was realised,
+              and as a strong believer in trustworthy and honest customer
+              service, things played out.
+            </p>
+            <p className="lead" data-aos="fade-up">
+              The need for that service was realized and Upper Level Security
+              came to be.
+            </p>
+            <p className="lead" data-aos="zoom-in">
+              Our previous clients include big and small organizations whom that
+              we have served with pride without compromising the standard of
+              service because safety is our priority.
+            </p>
+
+            {/* MOBILE IMG */}
+            <div className="col-md d-md-none text-center">
+              <Image
+                src={IMG08}
+                alt="Upper Level Security, Security company in Brakpan"
+                style={{
+                  height: "15rem",
+                  borderRadius: "20px",
+                }}
+              />
             </div>
-          </div>
-        </div>
-        {/* End row */}
-        <div className="row">
-          {/* item 1 */}
-          <div className="col-lg-6">
-            <div className="box-feat">
-              <span className="shadow">
-                <i class="bi bi-person-video3"></i>
-              </span>
-              <h3>Off-Site Monitoring</h3>
-              <p className="lead text-muted">
-                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
-                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
-              </p>
-              <Link href="">Read More</Link>
+
+            {/* LOGO MD ONLY */}
+            <div
+              className="d-none"
+              style={{ position: "absolute", right: "4rem", top: "-4rem" }}
+            >
+              <Image
+                src={Logo}
+                alt="Upper Level Security Logo"
+                style={{ width: "8rem" }}
+                className=""
+              />
             </div>
-          </div>
-          {/* item 2 */}
-          <div className="col-lg-6">
-            <div className="box-feat">
-              <span className="shadow">
-                <i class="bi bi-pc-display-horizontal"></i>
-              </span>
-              <h3>Electronic Security</h3>
-              <p className="lead text-muted">
-                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
-                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
+            <div
+              className="col-md-8 d-none d-md-block"
+              style={{
+                position: "absolute",
+                bottom: "10rem",
+                right: "3rem",
+              }}
+            >
+              <p
+                className="lead text-white text-center"
+                style={{ fontWeight: "bold" }}
+              >
+                {string1}
               </p>
-              <Link href="">Read More</Link>
-            </div>
-          </div>
-        </div>
-        {/* End row */}
-        <div className="row">
-          {/* item 1 */}
-          <div className="col-lg-6">
-            <div className="box-feat">
-              <span className="shadow">
-                <i class="bi bi-person-vcard"></i>
-              </span>
-              <h3>Protection & Assessment</h3>
-              <p className="lead text-muted">
-                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
-                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
-              </p>
-              <Link href="">Read More</Link>
-            </div>
-          </div>
-          {/* item 2 */}
-          <div className="col-lg-6">
-            <div className="box-feat">
-              <span className="shadow">
-                <i class="bi bi-camera-video"></i>
-              </span>
-              <h3>Online CCTV Security</h3>
-              <p className="lead text-muted">
-                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
-                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
-              </p>
-              <Link href="">Read More</Link>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

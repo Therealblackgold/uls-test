@@ -7,6 +7,7 @@ import ContactUs from "@/components/ContactUs";
 import Clients from "@/components/Clients";
 import Carousel from "@/components/Carousel";
 import ExecutiveSummary from "@/components/ExecutiveSummary";
+import Featured from "@/components/Featured";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function Home() {
       </Head>
 
       <Carousel />
+      <Featured />
       <Intro />
       <ExecutiveSummary />
       <Mission />
