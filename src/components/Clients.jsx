@@ -15,6 +15,7 @@ const Clients = () => {
   }, []);
   return (
     <section
+      className="testimonialsSection"
       id="testimonials"
       style={{
         overflow: "hidden",
@@ -38,10 +39,10 @@ const Clients = () => {
                 alt="Upper Level Security Logo"
                 className="d-none d-lg-block mt-4"
                 style={{
-                  width: "14rem",
+                  width: "12rem",
                   position: "absolute",
                   top: "13rem",
-                  left: "12rem",
+                  left: "5rem",
                 }}
               />
 
@@ -52,7 +53,7 @@ const Clients = () => {
                 alt="Upper Level Security, Security company in Brakpan"
                 style={{
                   height: "350px",
-                  width: "60rem",
+                  width: "50rem",
                   position: "absolute",
                   right: "0",
                   top: "10rem",
@@ -66,7 +67,7 @@ const Clients = () => {
             <div className="col-md-12 mySlider" style={{ marginTop: "15rem" }}>
               <div className="row">
                 <div className="testimonialsSection">
-                  <div className="testimonialsA">
+                  <div className="testimonials">
                     <div
                       id="carouselExampleControls"
                       className="carousel slide"
@@ -147,7 +148,7 @@ const Clients = () => {
                   <Image
                     src={logo}
                     alt="Upper Level Security, Security company in Brakpan"
-                    style={{ width: "10rem" }}
+                    style={{ width: "8rem" }}
                     loading="lazy"
                   />
                 </div>

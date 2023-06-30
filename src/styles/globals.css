@@ -110,86 +110,6 @@ p {
 
 /* NEW STYLES END */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-  line-height: normal;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-section {
-  min-height: 100vh;
-  margin-bottom: 5rem;
-  padding: 5em 0 5em 0;
-}
-
-.heading {
-  font-family: "Avenir Black";
-  text-transform: uppercase;
-  font-weight: 400;
-  z-index: 90;
-}
-
-.heading span {
-  letter-spacing: 5px;
-  font-weight: 400;
-  /* background-image: var(--bronze-color); */
-  background-image: var(--gold-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.sub-heading {
-  color: var(--primary-color);
-  text-transform: capitalize;
-  font-family: "Avenir Black";
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.btn {
-  text-transform: uppercase;
-}
-
-.btn i {
-  margin-right: 0.5rem;
-}
-
-.btn-primary {
-  /* background: var(--gold-btn) !important; */
-  /* border: 2px solid rgba(0, 0, 0, 0.113) !important; */
-  background: var(--primary-color) !important;
-  border: 2px solid var(--primary-color) !important;
-}
-
-.btn-primary:hover {
-  background-image: none !important;
-  background-color: transparent !important;
-  color: var(--primary-color) !important;
-  border: 2px solid var(--primary-color) !important;
-}
-
-.btn-outline-primary {
-  border: 2px solid var(--primary-color) !important;
-  color: var(--primary-color) !important;
-}
-
-.btn-outline-primary:hover {
-  background-image: var(--gold-btn) !important;
-  background-color: transparent !important;
-  border: none !important;
-  color: white !important;
-}
-
 /*
 =================================
  carousel component styles
@@ -257,23 +177,6 @@ section {
 Navigation component styles
 ============================
 */
-
-.navbar .logo {
-  text-transform: uppercase;
-  font-weight: bolder;
-  background-color: #222;
-  padding: 0.5rem;
-  border-radius: 15px;
-}
-
-.navbar .logo a {
-  text-decoration: none;
-  color: white;
-}
-
-.navbar .logo a:hover {
-  color: var(--primary-color);
-}
 
 .nav-link {
   text-transform: capitalize;
@@ -956,58 +859,33 @@ Footer component styles
   }
 }
 
-.testimonialsSection {
-  display: grid;
-  place-items: center;
-}
-
-.testimonialsA {
-  max-width: 1000px;
-  padding: 0px 15px 50px;
-  margin: 0px auto 80px auto;
-}
-
-.testimonialsA .single-item {
-  background-color: whitesmoke;
-  padding: 15px;
-  margin: 50px 15px;
-}
-
-.testimonialsA .profile {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.testimonialsA .img-area {
-  margin: 0px 15px 15px 15px;
-}
-
-.testimonialsA .img-area img {
-  height: 150px;
-  width: 200px;
-  /* border-radius: 50%; */
-  border: 7px solid;
-  /* border-color: var(--primary-color); */
-}
-
-.testimonialsA .content p {
-  text-align: center;
-}
-
-.testimonialsA h4 {
-  font-size: 18px;
-}
-
-.testimonialsA .carousel-control-next-icon,
-.testimonialsA .carousel-control-prev-icon {
-  background-color: var(--primary-color);
-  border-radius: 50%;
-}
-
 /* NEW STYLES */
 
+section {
+  min-height: 100vh;
+  padding: 5em 0 5em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 .executiveSection,
-.aboutSection {
+.aboutSection,
+.assuranceSection,
+.testimonialsSection {
   background: linear-gradient(
       rgba(255, 255, 255, 0.956),
       rgba(255, 255, 255, 0.927)
@@ -1018,12 +896,62 @@ Footer component styles
   background-repeat: no-repeat;
 }
 
-.introSection {
-  background: #f9f9f9;
+.heading {
+  font-family: "Avenir Black";
+  text-transform: uppercase;
+  font-weight: 400;
+  z-index: 90;
 }
 
-.introSection {
-  margin-top: -3rem;
+.heading span {
+  letter-spacing: 5px;
+  font-weight: 400;
+  /* background-image: var(--bronze-color); */
+  background-image: var(--gold-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-heading {
+  color: var(--primary-color);
+  text-transform: capitalize;
+  font-family: "Avenir Black";
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.btn i {
+  margin-right: 0.5rem;
+}
+
+.btn-primary {
+  /* background: var(--gold-btn) !important; */
+  /* border: 2px solid rgba(0, 0, 0, 0.113) !important; */
+  background: var(--primary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+  background-image: none !important;
+  background-color: transparent !important;
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+.btn-outline-primary:hover {
+  background-image: var(--gold-btn) !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
 }
 
 .lead {
@@ -1031,6 +959,14 @@ Footer component styles
 }
 
 /* INTRO */
+
+.introSection {
+  background: #f9f9f9;
+}
+
+.introSection {
+  margin-top: -3rem;
+}
 
 .box-feat {
   position: relative;
@@ -1068,13 +1004,19 @@ Footer component styles
 /* MISSION */
 .box-vision {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box-vision img {
-  border-radius: 15rem 15rem 0 0 !important;
   border-radius: 1rem;
   width: 18rem;
 }
+
+/* .box-vision .about-img {
+  border-radius: 15rem 15rem 0 0 !important;
+} */
 
 .box-vision .graphic {
   width: 18rem;
@@ -1086,4 +1028,108 @@ Footer component styles
   left: 52px;
   right: 0;
   opacity: 0.9;
+  /* ellipse */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-vision .ellipse {
+  width: 5rem;
+}
+
+.title-small {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 28px;
+  color: #222;
+  position: relative;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+/* ABOUT SECTION */
+
+.aboutSection {
+  /* background: #f9f9f9; */
+  margin-bottom: 5px;
+}
+
+/* ASSURANCE STYLES */
+
+.assurance-box img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.assurance-box img:hover {
+  opacity: 0.5;
+}
+
+.assuranceSection .surety {
+  background-color: #222;
+  color: white;
+  padding: 0.3rem;
+  width: fit-content;
+  border: 2px solid var(--primary-color);
+}
+
+/* TESTIMONIALS SECTION */
+
+.testimonialsSection .content p {
+  text-align: center;
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.testimonials {
+  display: grid;
+  place-items: center;
+}
+
+.testimonials {
+  max-width: 1000px;
+  padding: 0px 15px 50px;
+  margin: 0px auto 80px auto;
+}
+
+.testimonials .single-item {
+  background-color: whitesmoke;
+  padding: 15px;
+  margin: 50px 15px;
+}
+
+.testimonials .profile {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.testimonials .img-area {
+  margin: 0px 15px 15px 15px;
+}
+
+.testimonials .img-area img {
+  height: 150px;
+  width: 200px;
+  border: 7px solid;
+}
+
+.testimonials .content p {
+  text-align: center;
+}
+
+.testimonials h3 {
+  font-size: 16px;
+}
+
+.testimonials .carousel-control-next-icon,
+.testimonials .carousel-control-prev-icon {
+  background-color: var(--primary-color);
+  border-radius: 50%;
 }

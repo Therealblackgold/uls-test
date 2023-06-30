@@ -11,6 +11,14 @@ const ExecutiveSummary = () => {
     <section className="executiveSection">
       <div className="container">
         <div className="row">
+          <div className="col text-center">
+            <h6 className="title-small text-muted mx-auto" id="intro">
+              Introduction
+            </h6>
+          </div>
+        </div>
+
+        <div className="row">
           <div className="col-12 col-lg-10 p-4 mx-auto text-center text-dark">
             <h2 className="text-center mb-3 heading">
               Executive <span> Summary</span>

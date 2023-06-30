@@ -39,9 +39,9 @@ export default function Home() {
       <Intro />
       <ExecutiveSummary />
       <Mission />
-      {/* <Assurance /> */}
+      <Assurance />
       <ContactUs />
-      {/* <Clients /> */}
+      <Clients />
     </>
   );
 }
