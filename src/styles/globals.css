@@ -896,6 +896,12 @@ img {
   background-repeat: no-repeat;
 }
 
+.executiveSection,
+.aboutSection,
+.testimonialsSection {
+  margin-bottom: 10rem;
+}
+
 .heading {
   font-family: "Avenir Black";
   text-transform: uppercase;
