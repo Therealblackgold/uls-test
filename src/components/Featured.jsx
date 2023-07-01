@@ -30,7 +30,9 @@ const Featured = () => {
                 guards. Our services also extend to VIP/executive guarding and
                 protecting national key points.
               </ul>
-              <Link href="/services">Read More</Link>
+              <Link href="/services" aria-label="services">
+                Read More
+              </Link>
             </div>
           </div>
           {/* item 2 */}
@@ -47,7 +49,9 @@ const Featured = () => {
                 effective asset protection, ensuring comprehensive security
                 solutions.
               </p>
-              <Link href="/services">Read More</Link>
+              <Link href="/services" aria-label="services">
+                Read More
+              </Link>
             </div>
           </div>
         </div>
@@ -64,7 +68,9 @@ const Featured = () => {
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
-              <Link href="/services">Read More</Link>
+              <Link href="/services" aria-label="services">
+                Read More
+              </Link>
             </div>
           </div>
           {/* item 2 */}
@@ -78,7 +84,9 @@ const Featured = () => {
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
-              <Link href="/services">Read More</Link>
+              <Link href="/services" aria-label="services">
+                Read More
+              </Link>
             </div>
           </div>
         </div>
@@ -95,7 +103,9 @@ const Featured = () => {
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
-              <Link href="/services">Read More</Link>
+              <Link href="/services" aria-label="services">
+                Read More
+              </Link>
             </div>
           </div>
           {/* item 2 */}
@@ -109,7 +119,9 @@ const Featured = () => {
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
-              <Link href="/services">Read More</Link>
+              <Link href="/services" aria-label="services">
+                Read More
+              </Link>
             </div>
           </div>
         </div>

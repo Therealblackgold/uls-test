@@ -99,7 +99,7 @@ const Clients = () => {
                                   </div>
 
                                   <div className="col-md-6">
-                                    <div className="content">
+                                    <div className="content shadow">
                                       <p>{testimonial.comment}</p>
                                     </div>
                                   </div>
