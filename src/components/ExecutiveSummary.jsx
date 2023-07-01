@@ -71,15 +71,13 @@ const ExecutiveSummary = () => {
             <h2 className="heading mb-3 text-center">
               our <span>philosophy</span>
             </h2>
-            <ul>
-              <p className="lead ">
-                Driven by our core values of integrity and commitment to
-                professionalism in our service, creative concepts and the
-                integrated team work to deliver, Upper Level Security Services
-                will provide a superior service, tailor made as per clients’
-                needs.
-              </p>
-            </ul>
+            <p className="lead ">
+              Driven by our core values of integrity and commitment to
+              professionalism in our service, creative concepts and the
+              integrated team work to deliver, Upper Level Security Services
+              will provide a superior service, tailor made as per clients’
+              needs.
+            </p>
             <p className="quote text-center fst-italic">{quote}</p>
           </div>
         </div>
