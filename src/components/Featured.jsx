@@ -31,7 +31,7 @@ const Featured = () => {
                 protecting national key points.
               </p>
               <Link href="/services" aria-label="services">
-                view
+                view services
               </Link>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Featured = () => {
                 solutions.
               </p>
               <Link href="/services" aria-label="services">
-                view
+                view services
               </Link>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Featured = () => {
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
               <Link href="/services" aria-label="services">
-                view
+                view services
               </Link>
             </div>
           </div>
@@ -85,7 +85,7 @@ const Featured = () => {
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
               <Link href="/services" aria-label="services">
-                view
+                view services
               </Link>
             </div>
           </div>
@@ -104,10 +104,11 @@ const Featured = () => {
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
               <Link href="/services" aria-label="services">
-                view
+                view services
               </Link>
             </div>
           </div>
+
           {/* item 2 */}
           <div className="col-lg-6">
             <div className="box-feat">
@@ -120,7 +121,7 @@ const Featured = () => {
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
               <Link href="/services" aria-label="services">
-                view
+                view services
               </Link>
             </div>
           </div>
