@@ -1,11 +1,4 @@
 @font-face {
-  font-family: "Gideon Roman";
-  src: url("../assets/font/Gideon_Roman/GideonRoman-Regular.ttf");
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "Avenir";
   src: url("../assets/font/Avenir_Regular/AvenirRegular.ttf");
   font-weight: 400;
@@ -84,8 +77,8 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  /* scroll-padding: 75px; */
-  scroll-padding-top: 9rem;
+  scroll-padding: 75px;
+  /* scroll-padding-top: 9rem; */
 }
 
 html::-webkit-scrollbar {
@@ -125,7 +118,21 @@ body::before {
   height: 60px;
 }
 
-/* NEW STYLES */
+section {
+  min-height: 100vh;
+  padding: 5em 0 5em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
 
 h2 {
   font-size: 1.5em !important;
@@ -136,7 +143,108 @@ p {
   color: #222;
 }
 
-/* NEW STYLES END */
+.lead {
+  font-size: 16px !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.executiveSection,
+.aboutSection,
+.assurance,
+.testimonialsSection,
+.services,
+.vip-services,
+.director,
+.team,
+.training {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.956),
+      rgba(255, 255, 255, 0.927)
+    ),
+    url("./../assets/bg-network.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.executiveSection,
+.aboutSection,
+.testimonialsSection,
+.intro,
+.director {
+  margin-bottom: 10rem;
+}
+
+.heading {
+  font-family: "Avenir Black";
+  text-transform: uppercase;
+  font-weight: 400;
+  z-index: 90;
+}
+
+.heading span {
+  letter-spacing: 5px;
+  font-weight: 400;
+  /* background-image: var(--bronze-color); */
+  background-image: var(--gold-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-heading {
+  color: var(--primary-color);
+  text-transform: capitalize;
+  font-family: "Avenir Black";
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 19px;
+}
+
+.uls-heading {
+  font-size: 18px;
+}
+
+.quote {
+  font-weight: 300;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.btn i {
+  margin-right: 0.5rem;
+}
+
+.btn-primary {
+  /* background: var(--gold-btn) !important; */
+  /* border: 2px solid rgba(0, 0, 0, 0.113) !important; */
+  background: var(--primary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+  background-image: none !important;
+  background-color: transparent !important;
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+.btn-outline-primary:hover {
+  background-image: var(--gold-btn) !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+}
 
 /*
 =================================
@@ -144,22 +252,15 @@ p {
  ================================
 */
 
-/* .nav-contact-details {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+.carousel-heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
-.nav-contact-details a {
-  color: #222;
-  text-decoration: none;
-}
-
-.nav-contact-details a:hover {
+.carousel-heading span {
   color: var(--primary-color);
-} */
+}
 
 .c-item {
   height: 450px;
@@ -242,7 +343,7 @@ Intro component styles
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("./../assets/Group440moved.png");
+  background: url("./../assets/IntroSplash.png");
   background-size: cover;
   background-position: center;
   mix-blend-mode: screen;
@@ -317,72 +418,7 @@ Mission component styles
 ============================
   Assurance component styles
 ============================
-*/
 
-/* .assurance {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  background: url("./../assets/AssuranceGraphic-min.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.assurance::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("./../assets/AssuranceSplash.png");
-  background-size: cover;
-  background-position: center;
-  mix-blend-mode: screen;
-  background-repeat: no-repeat;
-  opacity: 0.9;
-}
-
-.assurance .surety {
-  background-color: #222;
-  color: white;
-  padding: 0.3rem;
-  width: fit-content;
-  border: 2px solid var(--primary-color);
-}
-
-.assurance .image-wrapper {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
-
-.assurance-logo {
-  width: 200px;
-}
-
-.assurance-graphicx {
-  width: 25rem;
-  height: 13rem;
-  background-image: var(--bronze-color);
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 7rem 0 0 7rem;
-  padding: 3.5rem;
-}
-
-.assurance-graphicx p {
-  display: flex;
-  align-content: center;
-  font-weight: 700;
-  font-style: italic;
-  font-family: "Gideon Roman", cursive;
-  line-height: 1.5rem;
-} */
-
-/*
 ============================
 Clients component styles
 ============================
@@ -416,38 +452,6 @@ List component styles
   padding: 0.2rem;
   font-weight: 400 !important;
   font-size: 18px;
-}
-
-/*
-============================
-Square component styles
-============================
-*/
-
-.img-container {
-  position: relative;
-  left: 5rem;
-}
-
-.img-container img {
-  position: absolute;
-  max-height: 8rem;
-  width: auto;
-  margin: auto;
-  top: 2rem;
-  left: 3rem;
-  background-color: rgba(255, 255, 255, 0.794);
-  z-index: 99;
-}
-
-.img-container .square {
-  position: absolute;
-  height: 8rem;
-  width: 8rem;
-  margin-left: 2rem;
-  border-style: solid;
-  border-width: 0.5rem;
-  border-color: #222;
 }
 
 /*
@@ -516,9 +520,8 @@ Team component styles
 }
 
 .team .square {
-  /* background: var(--bronze-color); */
   background: var(--gold-btn);
-  width: 13rem;
+  width: 11rem;
   height: 8rem;
   color: #222;
   display: flex;
@@ -558,12 +561,6 @@ Training component styles
 ============================
 */
 
-.training-content {
-  background: rgba(211, 211, 211, 0.75);
-  padding: 2rem;
-  border-radius: 10rem;
-}
-
 .quotations {
   width: 4rem;
   filter: invert(70%);
@@ -579,36 +576,6 @@ Training component styles
 .quote p {
   font-style: italic;
   font-weight: 400;
-}
-
-.training-graphic-image {
-  position: absolute;
-  bottom: 5rem;
-  right: 30rem;
-  width: auto;
-  height: 20rem;
-  border-radius: 15rem 0 0 15rem;
-}
-
-.training-graphic-x {
-  width: 39rem;
-  height: 20.2rem;
-  background-image: var(--bronze-color);
-  position: absolute;
-  bottom: 4.9rem;
-  right: 0;
-  border-radius: 10rem 0 0 10rem;
-  padding: 3.5rem;
-  z-index: 2;
-}
-
-.training-graphic-x p {
-  display: flex;
-  align-content: center;
-  font-weight: 700;
-  font-style: italic;
-  font-family: "Gideon Roman", cursive;
-  line-height: 1.5rem;
 }
 
 /*
@@ -799,28 +766,6 @@ Footer component styles
   header .logo {
     width: 15rem;
   }
-
-  /* section,
-  .intro,
-  .mission,
-  .assurance,
-  .vip {
-    min-height: 0;
-    margin-bottom: -5rem;
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.922),
-        rgba(255, 255, 255, 0.956)
-      ),
-      url("./../assets/bg-network.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
-
-  /* .lg-hide {
-    display: none !important;
-  } */
-
   .intro {
     margin-bottom: 2rem;
   }
@@ -841,7 +786,7 @@ Footer component styles
   .intro,
   .mission,
   .assurance,
-  .vip {
+  .vip-services {
     min-height: 0;
     margin-bottom: -5rem;
     background: linear-gradient(
@@ -856,12 +801,6 @@ Footer component styles
 
   .training {
     min-height: 100vh;
-  }
-
-  .training-content {
-    background: none;
-    padding: 0;
-    border-radius: 0;
   }
 }
 
@@ -886,124 +825,6 @@ Footer component styles
     justify-content: center;
     font-size: 15px;
   }
-}
-
-/* NEW STYLES */
-
-section {
-  min-height: 100vh;
-  padding: 5em 0 5em 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-  line-height: normal;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-.executiveSection,
-.aboutSection,
-.assurance,
-.testimonialsSection,
-.services {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.956),
-      rgba(255, 255, 255, 0.927)
-    ),
-    url("./../assets/bg-network.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.executiveSection,
-.aboutSection,
-.testimonialsSection,
-.intro {
-  margin-bottom: 10rem;
-}
-
-.heading {
-  font-family: "Avenir Black";
-  text-transform: uppercase;
-  font-weight: 400;
-  z-index: 90;
-}
-
-.heading span {
-  letter-spacing: 5px;
-  font-weight: 400;
-  /* background-image: var(--bronze-color); */
-  background-image: var(--gold-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.sub-heading {
-  color: var(--primary-color);
-  text-transform: capitalize;
-  font-family: "Avenir Black";
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.btn {
-  text-transform: uppercase;
-}
-
-.btn i {
-  margin-right: 0.5rem;
-}
-
-.btn-primary {
-  /* background: var(--gold-btn) !important; */
-  /* border: 2px solid rgba(0, 0, 0, 0.113) !important; */
-  background: var(--primary-color) !important;
-  border: 2px solid var(--primary-color) !important;
-}
-
-.btn-primary:hover {
-  background-image: none !important;
-  background-color: transparent !important;
-  color: var(--primary-color) !important;
-  border: 2px solid var(--primary-color) !important;
-}
-
-.btn-outline-primary {
-  border: 2px solid var(--primary-color) !important;
-  color: var(--primary-color) !important;
-}
-
-.btn-outline-primary:hover {
-  background-image: var(--gold-btn) !important;
-  background-color: transparent !important;
-  border: none !important;
-  color: white !important;
-}
-
-.lead {
-  font-size: 16px !important;
-}
-
-/* CAROUSEL STYLES */
-
-.carousel-heading {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 400;
-}
-
-.carousel-heading span {
-  color: var(--primary-color);
 }
 
 /* INTRO */
@@ -1083,22 +904,6 @@ img {
 
 .box-vision .ellipse {
   width: 5rem;
-}
-
-.title-small {
-  font-size: 16px;
-  font-weight: 500;
-  text-transform: uppercase;
-  display: inline-block;
-  line-height: 28px;
-  color: #222;
-  position: relative;
-  letter-spacing: 1px;
-  margin-bottom: 2rem;
-}
-
-.quote {
-  font-weight: 300;
 }
 
 /* ASSURANCE STYLES */

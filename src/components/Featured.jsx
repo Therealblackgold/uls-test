@@ -2,12 +2,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Logo from "../assets/UlsLogo.png";
-// import { Link } from "react-router-dom";
-import IMG08 from "../assets/TrainingGraphic-min.jpg";
-import IMG20 from "../assets/mobile/IMG20.png";
 import Link from "next/link";
-import Image from "next/image";
 
 const Featured = () => {
   const string1 =
@@ -18,7 +13,7 @@ const Featured = () => {
   }, []);
 
   return (
-    <div id="intro" className="introSection py-5">
+    <div id="featured" className="introSection py-5">
       <div className="container">
         <div className="row">
           {/* item 1 */}
@@ -29,10 +24,13 @@ const Featured = () => {
               </span>
               <h3>Guarding Division</h3>
               <ul className="lead text-muted">
-                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
-                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
+                We provide armed and unarmed guards for various needs, including
+                a tactical reaction unit for rapid response. Specialize in
+                securing functions, events, and even specially trained mining
+                guards. Our services also extend to VIP/executive guarding and
+                protecting national key points.
               </ul>
-              <Link href="">Read More</Link>
+              <Link href="/services">Read More</Link>
             </div>
           </div>
           {/* item 2 */}
@@ -43,10 +41,13 @@ const Featured = () => {
               </span>
               <h3>Risk Management</h3>
               <p className="lead text-muted">
-                Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
-                fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
+                Risk analysis is crucial for a security company. It involves
+                assessing threats to property, events, staffing, surveillance,
+                conducting integrity checks, and implementing measures for
+                effective asset protection, ensuring comprehensive security
+                solutions.
               </p>
-              <Link href="">Read More</Link>
+              <Link href="/services">Read More</Link>
             </div>
           </div>
         </div>
@@ -63,7 +64,7 @@ const Featured = () => {
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
-              <Link href="">Read More</Link>
+              <Link href="/services">Read More</Link>
             </div>
           </div>
           {/* item 2 */}
@@ -77,7 +78,7 @@ const Featured = () => {
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
-              <Link href="">Read More</Link>
+              <Link href="/services">Read More</Link>
             </div>
           </div>
         </div>
@@ -94,7 +95,7 @@ const Featured = () => {
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
-              <Link href="">Read More</Link>
+              <Link href="/services">Read More</Link>
             </div>
           </div>
           {/* item 2 */}
@@ -108,7 +109,7 @@ const Featured = () => {
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
-              <Link href="">Read More</Link>
+              <Link href="/services">Read More</Link>
             </div>
           </div>
         </div>

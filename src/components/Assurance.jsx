@@ -1,14 +1,12 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Logo from "../assets/UlsLogo.png";
 import IMG1 from "../assets/gallery/cars14-min.jpg";
 import IMG2 from "../assets/gallery/team05-min.jpg";
 import IMG3 from "../assets/gallery/team03-min.jpg";
 import IMG4 from "../assets/gallery/team07-min.jpg";
 import IMG5 from "../assets/gallery/cars04-min.jpg";
 import IMG6 from "../assets/gallery/cars01-min.jpg";
-import Quotes from "../assets/qu.png";
 import Image from "next/image";
 
 const Assurance = () => {
@@ -17,13 +15,10 @@ const Assurance = () => {
   }, []);
 
   return (
-    <section className="assurance">
+    <section className="assurance" id="assurance">
       <div className="container">
         <div className="row">
           <div className="col  text-center">
-            <h6 className="title-small text-muted mx-auto" id="assurance">
-              Assurance
-            </h6>
             <h2 className="heading mb-5" data-aos="fade-down">
               QUALITY<span> ASSURANCE</span>
             </h2>
@@ -73,26 +68,26 @@ const Assurance = () => {
           <div className="col-lg-6 assurance-box text-center mt-5 mt-lg-0">
             <div className="row">
               <div className="col">
-                <Image src={IMG2} alt="" />
+                <Image src={IMG2} alt="Upper Level Security Brakpan" />
               </div>
               <div className="col">
-                <Image src={IMG3} alt="" />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col">
-                <Image src={IMG1} alt="" />
-              </div>
-              <div className="col">
-                <Image src={IMG4} alt="" />
+                <Image src={IMG3} alt="Upper Level Security Brakpan" />
               </div>
             </div>
             <div className="row">
               <div className="col">
-                <Image src={IMG5} alt="" />
+                <Image src={IMG1} alt="Upper Level Security Brakpan" />
               </div>
               <div className="col">
-                <Image src={IMG6} alt="" />
+                <Image src={IMG4} alt="Upper Level Security Brakpan" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <Image src={IMG5} alt="Upper Level Security Brakpan" />
+              </div>
+              <div className="col">
+                <Image src={IMG6} alt="Upper Level Security Brakpan" />
               </div>
             </div>
           </div>

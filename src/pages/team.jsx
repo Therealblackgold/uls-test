@@ -32,7 +32,7 @@ const Team = () => {
           <div className="row">
             <div className="col-12 col-lg-8 text-center mx-auto">
               <motion.h2
-                className="heading text-center mb-5"
+                className="heading text-center"
                 initial={{ y: "-50px" }}
                 animate={{ y: "0px" }}
               >
@@ -50,11 +50,12 @@ const Team = () => {
               <center>
                 <h3 className="sub-heading d-none d-md-block">ORGANOGRAM</h3>
                 <h4
-                  className="mb-5"
+                  className="uls-heading mb-5"
                   style={{
                     background: "gray",
                     color: "white",
                     padding: "0.5rem",
+                    width: "fit-content",
                   }}
                 >
                   UPPER LEVEL SECURITY TEAM

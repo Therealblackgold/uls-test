@@ -6,7 +6,6 @@ import {
   services5,
   services6,
 } from "../data";
-import Logo from "../assets/UlsLogo.png";
 import AOS from "aos";
 import { useEffect } from "react";
 import Image from "next/image";
@@ -111,11 +110,14 @@ const List = () => {
             </ul>
           </div>
 
-          <div className="col-md text-center d-md-none mt-5" data-aos="zoom-in">
+          <div
+            className="col-md-8 mx-auto text-center d-lg-none mt-5"
+            data-aos="zoom-in"
+          >
             <Image
               src={IMG1}
               alt="Upper Level Security, Security company in Brakpan"
-              style={{ height: "15rem", borderRadius: "20px" }}
+              style={{ height: "15rem", borderRadius: "1rem" }}
             />
           </div>
         </div>

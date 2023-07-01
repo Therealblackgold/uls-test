@@ -8,16 +8,8 @@ const ExecutiveSummary = () => {
     '"Definiteness of purpose is the starting point of all achievement"';
 
   return (
-    <section className="executiveSection">
+    <section className="executiveSection" id="mission">
       <div className="container">
-        <div className="row">
-          <div className="col text-center">
-            <h6 className="title-small text-muted mx-auto" id="about">
-              about
-            </h6>
-          </div>
-        </div>
-
         {/* VISION */}
         <div className="row shadow mb-3">
           <div className="col-12 col-lg-10 mx-auto py-3">

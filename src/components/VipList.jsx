@@ -12,7 +12,7 @@ const VipList = () => {
   return (
     <section
       id="vip"
-      className="vip"
+      className="vip-services"
       style={{ marginBottom: "0", position: "relative" }}
     >
       <div className="container">
@@ -83,11 +83,14 @@ const VipList = () => {
           </div>
 
           {/* MOBILE IMG */}
-          <div className="col-md text-center d-md-none mt-5" data-aos="zoom-in">
+          <div
+            className="col-md-8 mx-auto text-center d-lg-none mt-5"
+            data-aos="zoom-in"
+          >
             <Image
               src={IMG08}
               alt="Upper Level Security, Security company in Brakpan"
-              style={{ height: "15rem", borderRadius: "20px" }}
+              style={{ height: "15rem", borderRadius: "1rem" }}
             />
           </div>
           {/* GRAPHIC */}
@@ -102,7 +105,7 @@ const VipList = () => {
                 width: "50rem",
                 position: "absolute",
                 bottom: "0",
-                right: "5rem",
+                right: "1rem",
               }}
             />
           </div>

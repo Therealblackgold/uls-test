@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Logo from "../assets/UlsLogo.png";
 // import { Link } from "react-router-dom";
 import IMG08 from "../assets/TrainingGraphic-min.jpg";
-import IMG20 from "../assets/mobile/IMG20.png";
+import IMG20 from "../assets/ServicesGraphic-min.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -50,10 +50,10 @@ const Intro = () => {
               motto and works on a collaborative basis with staff and clients
             </p>
             <Link
-              href="mailto:mmohau1@gmail.com"
-              target="_blank"
+              href="mailto:protected@upperlevelsecurity.co.za"
+              target="new"
               className="btn btn-primary mx-auto mx-md-0"
-              style={{ width: "10rem" }}
+              style={{ width: "9rem" }}
               data-aos="zoom-in"
             >
               <i className="bi bi-chevron-right"></i>get quote

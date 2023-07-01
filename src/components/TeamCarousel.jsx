@@ -41,7 +41,7 @@ const TeamCarousel = () => {
       <div className="col-md-12 d-md-none mySlider">
         <div className="row">
           <div className="testimonialsSection">
-            <div className="testimonialsA">
+            <div className="testimonials">
               <div
                 id="carouselExampleControls"
                 className="carousel slide"
