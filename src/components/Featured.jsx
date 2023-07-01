@@ -23,15 +23,15 @@ const Featured = () => {
                 <i class="bi bi-building-lock"></i>
               </span>
               <h3>Guarding Division</h3>
-              <ul className="lead text-muted">
+              <p className="lead">
                 We provide armed and unarmed guards for various needs, including
                 a tactical reaction unit for rapid response. Specialize in
                 securing functions, events, and even specially trained mining
                 guards. Our services also extend to VIP/executive guarding and
                 protecting national key points.
-              </ul>
+              </p>
               <Link href="/services" aria-label="services">
-                Read More
+                view services
               </Link>
             </div>
           </div>
@@ -42,7 +42,7 @@ const Featured = () => {
                 <i class="bi bi-person-lock"></i>
               </span>
               <h3>Risk Management</h3>
-              <p className="lead text-muted">
+              <p className="lead">
                 Risk analysis is crucial for a security company. It involves
                 assessing threats to property, events, staffing, surveillance,
                 conducting integrity checks, and implementing measures for
@@ -50,7 +50,7 @@ const Featured = () => {
                 solutions.
               </p>
               <Link href="/services" aria-label="services">
-                Read More
+                view services
               </Link>
             </div>
           </div>
@@ -64,12 +64,12 @@ const Featured = () => {
                 <i class="bi bi-person-video3"></i>
               </span>
               <h3>Off-Site Monitoring</h3>
-              <p className="lead text-muted">
+              <p className="lead">
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
               <Link href="/services" aria-label="services">
-                Read More
+                view services
               </Link>
             </div>
           </div>
@@ -80,12 +80,12 @@ const Featured = () => {
                 <i class="bi bi-pc-display-horizontal"></i>
               </span>
               <h3>Electronic Security</h3>
-              <p className="lead text-muted">
+              <p className="lead">
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
               <Link href="/services" aria-label="services">
-                Read More
+                view services
               </Link>
             </div>
           </div>
@@ -99,12 +99,12 @@ const Featured = () => {
                 <i class="bi bi-person-vcard"></i>
               </span>
               <h3>Protection & Assessment</h3>
-              <p className="lead text-muted">
+              <p className="lead">
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
               <Link href="/services" aria-label="services">
-                Read More
+                view services
               </Link>
             </div>
           </div>
@@ -115,12 +115,12 @@ const Featured = () => {
                 <i class="bi bi-camera-video"></i>
               </span>
               <h3>Online CCTV Security</h3>
-              <p className="lead text-muted">
+              <p className="lead">
                 Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri
                 fabulas expetenda ei pro. Sed vero assentior ad, est vide liber
               </p>
               <Link href="/services" aria-label="services">
-                Read More
+                view services
               </Link>
             </div>
           </div>
