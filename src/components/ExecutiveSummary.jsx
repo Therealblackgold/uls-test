@@ -4,82 +4,91 @@ import Link from "next/link";
 import Logo from "../assets/UlsLogo.png";
 
 const ExecutiveSummary = () => {
-  const string1 =
-    '"I am not a product of my circumstances. I am a product of my decisions"';
+  const quote =
+    '"Definiteness of purpose is the starting point of all achievement"';
 
   return (
     <section className="executiveSection">
       <div className="container">
         <div className="row">
           <div className="col text-center">
-            <h6 className="title-small text-muted mx-auto" id="intro">
-              Introduction
+            <h6 className="title-small text-muted mx-auto" id="about">
+              about
             </h6>
           </div>
         </div>
 
+        {/* VISION */}
         <div className="row">
-          <div className="col-12 col-lg-10 p-4 mx-auto text-center text-dark">
+          <div className="col-12 col-lg-10 p-4 mx-auto">
             <h2 className="text-center mb-3 heading">
-              Executive <span> Summary</span>
+              our <span>vision</span>
             </h2>
-            <p className="lead text-dark" data-aos="fade-up">
-              Upper Level Security is a 100% blacked owned company with a Level
-              three (3) BEE certification.
-            </p>
-            <p className="lead text-dark" data-aos="fade-up">
-              In the current political climate, with increasing fears of
-              criminal activity, and the current economic climate, where
-              unemployment is ever increasing and many young people are
-              resorting to crime to fulfill their financial needs, every
-              business must be protected by an acute security company which is
-              dedicated and well prepared to prevent crime.
-            </p>
-            <p className="lead text-dark" data-aos="fade-up">
-              Providing the ultimate in customer services and satisfaction along
-              with building long term relationships with our clients is the
-              cornerstone of our business. Upper Level Security has a reputation
-              of completing its projects professionally, in time and within the
-              specified budget. We specialize in all aspects of security
-              including guarding division and investigations.
-            </p>
-            <p className="lead text-dark" data-aos="fade-up">
-              The company strongly emphasizes the “satisfaction guaranteed”
-              motto and works on a collaborative basis with staff and clients
-            </p>
+            <ul>
+              <li className="lead">
+                To contribute in fighting crime and poverty by creating
+                employment and uplifting the disadvantaged by allowing them to
+                gain and maintain skills.
+              </li>
+              <li className="lead">
+                To achieve excellence in safety measures and quality services.
+              </li>
+              <li className="lead">
+                To be the leading organization in the industry through excellent
+                service, advancing empowerment values, in motive and efficient
+                industry through training and fair remuneration.
+              </li>
+              <li className="lead">
+                To always be a step ahead of intruders through our partnership
+                with a local electronics device manufacturing company, that will
+                assure our clients that we well equipped with the latest
+                electronic devices set for the job at hand.
+              </li>
+            </ul>
           </div>
         </div>
 
-        {/* HISTORY */}
+        {/* MISSION */}
+        <div className="row mt-5">
+          <div
+            className="col-12 col-lg-10 mx-auto p-4"
+            style={{ position: "relative" }}
+          >
+            <h2 className="heading mb-3 text-center">
+              our <span>mission</span>
+            </h2>
+            <ul>
+              <li className="lead">
+                To empower our employees to fulfill their aspirations and
+                capabilities through exchange of their honest labor.
+              </li>
+              <li className="lead">
+                To build a reputation of managing contracts successfully by
+                continually improving our service levels, and constantly meeting
+                our customer requirements.
+              </li>
+            </ul>
+          </div>
+        </div>
+        {/* PHILOSOPHY */}
         <div className="row mt-5">
           <div
             className="col-12 col-lg-10 mx-auto p-4 text-center"
             style={{ position: "relative" }}
           >
             <h2 className="heading mb-3 text-center">
-              our <span>history</span>
+              our <span>philosophy</span>
             </h2>
-            <p className="lead text-dark" data-aos="fade-up">
-              After realizing that in this industry, every company is doing
-              things the same way, lack of innovation in the industry was the
-              birth of Upper Level Security.
-            </p>
-            <p className="lead text-dark" data-aos="fade-up">
-              The founder of the company (Mohau Richard Mokoena) started working
-              in the security industry as a security guard, thats when the
-              desire to improve the standard of private security was realised,
-              and as a strong believer in trustworthy and honest customer
-              service, things played out.
-            </p>
-            <p className="lead text-dark" data-aos="fade-up">
-              The need for that service was realized and Upper Level Security
-              came to be.
-            </p>
-            <p className="lead text-dark" data-aos="zoom-in">
-              Our previous clients include big and small organizations whom that
-              we have served with pride without compromising the standard of
-              service because safety is our priority.
-            </p>
+            <ul>
+              <p className="lead ">
+                Driven by our core values of integrity and commitment to
+                professionalism in our service, creative concepts and the
+                integrated team work to deliver, Upper Level Security Services
+                will provide a superior service, tailor made as per clients’
+                needs.
+              </p>
+            </ul>
+            <p className="quote text-center fst-italic">{quote}</p>
           </div>
         </div>
       </div>

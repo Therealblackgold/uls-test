@@ -21,7 +21,7 @@ const Intro = () => {
     <section id="intro" className="intro">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-12 col-xl-4 intro-content text-center text-md-start px-lg-5 py-5">
+          <div className="col-12 col-xl-4 intro-content text-center text-md-start px-lg-5 py-lg-5">
             <h2 className="text-center mb-3 heading">
               EXECUTIVE <span>SUMMARY</span>
             </h2>
@@ -129,8 +129,8 @@ const Intro = () => {
               className="col-md-8 d-none d-md-block"
               style={{
                 position: "absolute",
-                bottom: "10rem",
-                right: "3rem",
+                bottom: "11rem",
+                right: "-4rem",
               }}
             >
               <p

@@ -44,7 +44,7 @@ const VipList = () => {
         </div>
         <div className="row">
           <div className="col-12 col-lg" data-aos="zoom-in">
-            <h3 className="list-heading fs-4">
+            <h3 className="list-heading">
               Execute Protection CPO - Specializing in:
             </h3>
             <ul className="list">
@@ -56,9 +56,7 @@ const VipList = () => {
             </ul>
           </div>
           <div className="col-12 col-lg" data-aos="zoom-in">
-            <h3 className="list-heading fs-4">
-              Team Leader – Specializing in:
-            </h3>
+            <h3 className="list-heading">Team Leader – Specializing in:</h3>
             <ul className="list">
               {vipServices2.map((service, index) => (
                 <li key={index} className="lead">
@@ -70,9 +68,7 @@ const VipList = () => {
         </div>
         <div className="row">
           <div className="col-12 col-lg-4" data-aos="zoom-in">
-            <h3 className="list-heading fs-4">
-              High-Threat CPO – Specializing in:
-            </h3>
+            <h3 className="list-heading">High-Threat CPO – Specializing in:</h3>
             <ul className="list">
               {vipServices3.map((service, index) => (
                 <li key={index} className="lead">
@@ -98,7 +94,7 @@ const VipList = () => {
             <Image
               src={VipGraphic}
               alt="Upper Level Security, Security company in Brakpan"
-              style={{ width: "80rem" }}
+              style={{ width: "50rem" }}
             />
           </div>
         </div>

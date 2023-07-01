@@ -1,15 +1,11 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Intro from "@/components/Intro";
-import Mission from "@/components/Mission";
 import Assurance from "@/components/Assurance";
 import ContactUs from "@/components/ContactUs";
 import Clients from "@/components/Clients";
 import Carousel from "@/components/Carousel";
 import ExecutiveSummary from "@/components/ExecutiveSummary";
 import Featured from "@/components/Featured";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -40,7 +36,6 @@ export default function Home() {
       <Featured />
       <Intro />
       <ExecutiveSummary />
-      <Mission />
       <Assurance />
       <ContactUs />
       <Clients />

@@ -26,17 +26,6 @@ const List = () => {
       <div className="container" style={{ zIndex: "90" }}>
         {/* row 1 */}
         <div className="row">
-          <Image
-            src={Logo}
-            alt="Upper Level Security Logo"
-            className="d-none d-lg-block mt-4"
-            style={{
-              width: "10rem",
-              position: "absolute",
-              top: "2rem",
-              left: "5rem",
-            }}
-          />
           <motion.h2
             className="heading text-center mb-5"
             initial={{ y: "-50px" }}
@@ -45,7 +34,7 @@ const List = () => {
             our<span> services</span>
           </motion.h2>
           <div className="col-lg" style={{ zIndex: "90" }} data-aos="zoom-in">
-            <h3 className="list-heading fs-4">Guarding Division</h3>
+            <h3 className="list-heading">Guarding Division</h3>
             <ul className="list">
               {services1.map((service, index) => (
                 <li key={index} className="lead">
@@ -55,7 +44,7 @@ const List = () => {
             </ul>
           </div>
           <div className="col-lg" style={{ zIndex: "90" }} data-aos="zoom-in">
-            <h3 className="list-heading fs-4">Risk Management</h3>
+            <h3 className="list-heading">Risk Management</h3>
             <ul className="list">
               {services2.map((service, index) => (
                 <li key={index} className="lead">
@@ -65,7 +54,7 @@ const List = () => {
             </ul>
           </div>
           <div className="col-lg" style={{ zIndex: "90" }} data-aos="zoom-in">
-            <h3 className="list-heading fs-4">Off-Site Monitoring</h3>
+            <h3 className="list-heading">Off-Site Monitoring</h3>
             <ul className="list">
               {services3.map((service, index) => (
                 <li key={index} className="lead">
@@ -82,7 +71,7 @@ const List = () => {
             style={{ zIndex: "90" }}
             data-aos="zoom-in"
           >
-            <h3 className="list-heading fs-4">Electronic Security</h3>
+            <h3 className="list-heading">Electronic Security</h3>
             <ul className="list">
               {services4.map((service, index) => (
                 <li key={index} className="lead">
@@ -96,7 +85,7 @@ const List = () => {
             style={{ zIndex: "90" }}
             data-aos="zoom-in"
           >
-            <h3 className="list-heading fs-4">Online CCTV Security</h3>
+            <h3 className="list-heading">Online CCTV Security</h3>
             <ul className="list">
               {services5.map((service, index) => (
                 <li key={index} className="lead">
@@ -110,7 +99,7 @@ const List = () => {
             style={{ zIndex: "90" }}
             data-aos="zoom-in"
           >
-            <h3 className="list-heading fs-4">Protection & Assessment</h3>
+            <h3 className="list-heading">Protection & Assessment</h3>
             <ul className="list">
               {services6.map((service, index) => (
                 <li key={index} className="lead">

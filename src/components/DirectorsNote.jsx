@@ -23,23 +23,12 @@ const DirectorsNote = () => {
               DIRECTORS NOTE
             </motion.h2>
             <Image
-              src={Logo}
-              alt=" Upper Level Security Logo"
-              className="lg-hide mt-4"
-              style={{
-                width: "10rem",
-                position: "absolute",
-                top: "2rem",
-                right: "10rem",
-              }}
-            />
-            <Image
               src={Quotation}
               alt="quotation mark"
               className="lg-hide"
               loading="lazy"
               style={{
-                width: "5rem",
+                width: "3rem",
                 filter: "invert(70%)",
                 position: "absolute",
                 top: "4rem",
@@ -74,7 +63,7 @@ const DirectorsNote = () => {
               className="lg-hide"
               loading="lazy"
               style={{
-                width: "5rem",
+                width: "3rem",
                 filter: "invert(70%)",
                 position: "absolute",
                 top: "27rem",
@@ -84,7 +73,7 @@ const DirectorsNote = () => {
           </div>
         </div>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md d-none d-lg-block">
             <Image
               className="lg-hide"
@@ -92,14 +81,14 @@ const DirectorsNote = () => {
               alt="Team Graphic"
               loading="lazy"
               style={{
-                width: "50rem",
+                width: "30rem",
                 position: "absolute",
-                bottom: "-4rem",
-                left: "35rem",
+                bottom: "0",
+                left: "24rem",
               }}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

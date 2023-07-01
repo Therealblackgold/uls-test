@@ -102,13 +102,13 @@ html::-webkit-scrollbar-thumb {
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: red;
-  background: yellow;
+  color: #fff;
+  background: var(--primary-color);
 }
 
 ::selection {
-  color: red;
-  background: yellow;
+  color: #fff;
+  background: var(--primary-color);
 }
 
 body {
@@ -413,7 +413,8 @@ List component styles
   color: #222;
   width: fit-content;
   padding: 0.2rem;
-  font-weight: normal;
+  font-weight: 400 !important;
+  font-size: 18px;
 }
 
 /*
@@ -912,7 +913,8 @@ img {
 .executiveSection,
 .aboutSection,
 .assuranceSection,
-.testimonialsSection {
+.testimonialsSection,
+.services {
   background: linear-gradient(
       rgba(255, 255, 255, 0.956),
       rgba(255, 255, 255, 0.927)
@@ -925,7 +927,8 @@ img {
 
 .executiveSection,
 .aboutSection,
-.testimonialsSection {
+.testimonialsSection,
+.intro {
   margin-bottom: 10rem;
 }
 
