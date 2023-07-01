@@ -83,6 +83,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
   /* scroll-padding: 75px; */
   scroll-padding-top: 9rem;
 }
@@ -318,7 +319,7 @@ Mission component styles
 ============================
 */
 
-.assurance {
+/* .assurance {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -379,7 +380,7 @@ Mission component styles
   font-style: italic;
   font-family: "Gideon Roman", cursive;
   line-height: 1.5rem;
-}
+} */
 
 /*
 ============================
@@ -909,10 +910,9 @@ img {
   width: 100%;
   height: auto;
 }
-
 .executiveSection,
 .aboutSection,
-.assuranceSection,
+.assurance,
 .testimonialsSection,
 .services {
   background: linear-gradient(
@@ -1112,7 +1112,7 @@ img {
   opacity: 0.5;
 }
 
-.assuranceSection .surety {
+.assurance .surety {
   background-color: #222;
   color: white;
   padding: 0.3rem;

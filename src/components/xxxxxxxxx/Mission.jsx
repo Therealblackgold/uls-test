@@ -20,11 +20,7 @@ const Mission = () => {
     '"Definiteness of purpose is the starting point of all achievement"';
 
   return (
-    <section
-      className="aboutSection"
-      id="mission"
-      // style={{ background: "#F9F9F9" }}
-    >
+    <section className="aboutSection" id="mission">
       <div className="container">
         <div className="row">
           <div className="col text-center">

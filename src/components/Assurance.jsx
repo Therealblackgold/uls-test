@@ -17,7 +17,7 @@ const Assurance = () => {
   }, []);
 
   return (
-    <section className="assuranceSection">
+    <section className="assurance">
       <div className="container">
         <div className="row">
           <div className="col  text-center">

@@ -19,8 +19,8 @@ const ExecutiveSummary = () => {
         </div>
 
         {/* VISION */}
-        <div className="row">
-          <div className="col-12 col-lg-10 p-4 mx-auto">
+        <div className="row shadow mb-3">
+          <div className="col-12 col-lg-10 mx-auto py-3">
             <h2 className="text-center mb-3 heading">
               our <span>vision</span>
             </h2>
@@ -49,9 +49,9 @@ const ExecutiveSummary = () => {
         </div>
 
         {/* MISSION */}
-        <div className="row mt-5">
+        <div className="row shadow mb-3">
           <div
-            className="col-12 col-lg-10 mx-auto p-4"
+            className="col-12 col-lg-10 mx-auto py-3"
             style={{ position: "relative" }}
           >
             <h2 className="heading mb-3 text-center">
@@ -71,9 +71,9 @@ const ExecutiveSummary = () => {
           </div>
         </div>
         {/* PHILOSOPHY */}
-        <div className="row mt-5">
+        <div className="row shadow">
           <div
-            className="col-12 col-lg-10 mx-auto p-4 text-center"
+            className="col-12 col-lg-10 mx-auto text-center py-3"
             style={{ position: "relative" }}
           >
             <h2 className="heading mb-3 text-center">
