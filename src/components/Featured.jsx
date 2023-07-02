@@ -5,9 +5,6 @@ import { useEffect } from "react";
 import Link from "next/link";
 
 const Featured = () => {
-  const string1 =
-    '"I am not a product of my circumstances. I am a product of my decisions"';
-
   const featured_row_1 = [
     {
       title: "Guarding Division",
@@ -89,7 +86,7 @@ const Featured = () => {
                   <span className="shadow">
                     <i class={service.icon}></i>
                   </span>
-                  <h3>{service.title}</h3>
+                  <h2>{service.title}</h2>
                   <p className="lead">{service.content}</p>
                   <Link href={service.url} aria-label="services">
                     {service.button_text}
@@ -107,7 +104,7 @@ const Featured = () => {
                   <span className="shadow">
                     <i class={service.icon}></i>
                   </span>
-                  <h3>{service.title}</h3>
+                  <h2>{service.title}</h2>
                   <p className="lead">{service.content}</p>
                   <Link href={service.url} aria-label="services">
                     {service.button_text}
@@ -125,7 +122,7 @@ const Featured = () => {
                   <span className="shadow">
                     <i class={service.icon}></i>
                   </span>
-                  <h3>{service.title}</h3>
+                  <h2>{service.title}</h2>
                   <p className="lead">{service.content}</p>
                   <Link href={service.url} aria-label="services">
                     {service.button_text}
