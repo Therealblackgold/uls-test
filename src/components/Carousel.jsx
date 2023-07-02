@@ -1,6 +1,6 @@
 import Image from "next/image";
 // import ULS1 from "../assets/gallery/FM2A2207-min.jpg";
-import ULS1 from "../assets/gallery/FM2A2207-min 1.png";
+import ULS1 from "../assets/gallery/FM2A2207-min 1(2).png";
 import ULS2 from "../assets/IntroGraphic-min.png";
 import ULS3 from "../assets/gallery/FM2A2249-min.jpg";
 import Link from "next/link";
