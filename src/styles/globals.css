@@ -791,6 +791,16 @@ Footer component styles
     background-repeat: no-repeat;
   }
 
+  .intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+  }
+
   .training {
     min-height: 100vh;
   }
