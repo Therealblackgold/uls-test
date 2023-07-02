@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "next/image";
 import { testimonials } from "@/data";
-import IMG1 from "../assets/FM2A2285-min.jpg";
+import IMG1 from "../assets/FM2A2285-min 1.png";
 import Logo from "../assets/UlsLogo.png";
 import { client_logos } from "@/data";
 

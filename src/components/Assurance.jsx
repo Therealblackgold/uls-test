@@ -1,12 +1,12 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import IMG1 from "../assets/gallery/cars14-min.jpg";
-import IMG2 from "../assets/gallery/team05-min.jpg";
-import IMG3 from "../assets/gallery/team03-min.jpg";
-import IMG4 from "../assets/gallery/team07-min.jpg";
-import IMG5 from "../assets/gallery/cars04-min.jpg";
-import IMG6 from "../assets/gallery/cars01-min.jpg";
+import IMG1 from "../assets/gallery/cars14-min 2.png";
+import IMG2 from "../assets/gallery/team05-min 1(1).png";
+import IMG3 from "../assets/gallery/team03-min 2.png";
+import IMG4 from "../assets/gallery/FM2A2249-min 1.png";
+import IMG5 from "../assets/gallery/cars04-min 1.png";
+import IMG6 from "../assets/gallery/cars01-min 1.png";
 import Image from "next/image";
 
 const Assurance = () => {

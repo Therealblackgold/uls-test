@@ -225,6 +225,8 @@ img {
   /* border: 2px solid rgba(0, 0, 0, 0.113) !important; */
   background: var(--primary-color) !important;
   border: 2px solid var(--primary-color) !important;
+  /* color: #222 !important; */
+  font-weight: 600 !important;
 }
 
 .btn-primary:hover {

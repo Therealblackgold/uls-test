@@ -149,7 +149,7 @@ const Navigation = () => {
                 href="#contact"
                 className="btn btn-primary text-dark mx-md-5 d-none d-lg-block"
               >
-                Contact
+                <i className="bi bi-chevron-right"></i>Contact
               </Link>
             )}
           </div>
