@@ -26,6 +26,7 @@ const DirectorsNote = () => {
             <Image
               src={Quotation}
               alt="quotation mark"
+              className="d-none d-lg-flex"
               loading="lazy"
               style={{
                 width: "3rem",
@@ -37,6 +38,7 @@ const DirectorsNote = () => {
             <Image
               src={Quotation}
               alt="quotation mark"
+              className="d-none d-lg-flex"
               loading="lazy"
               style={{
                 width: "3rem",

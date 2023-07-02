@@ -287,18 +287,15 @@ img {
   background-repeat: no-repeat;
   padding-bottom: 30vh;
   margin-bottom: 0;
-}
-
-.header h1 {
-  text-transform: uppercase;
-  color: var(--primary-color);
-  text-shadow: 1px 1px 1px #000;
+  text-align: center;
 }
 
 .header p {
   line-height: 1.3;
   text-shadow: 1px 1px 1px #000;
   padding-left: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2ch;
 }
 
 /*
@@ -415,10 +412,6 @@ Mission component styles
 }
 
 /*
-============================
-  Assurance component styles
-============================
-
 ============================
 Clients component styles
 ============================
@@ -724,7 +717,6 @@ Footer component styles
 
 .footer {
   padding: 20px 0 50px 0;
-  /* background-color: #222; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -863,6 +855,10 @@ Footer component styles
   justify-content: center;
 }
 
+.box-feat .lead {
+  color: #7d7d7d;
+}
+
 .box-feat a {
   color: #222;
   font-weight: 600;
@@ -872,39 +868,6 @@ Footer component styles
 .box-feat i {
   color: var(--primary-color);
   font-size: 30px;
-}
-
-/* ABOUT SECTION */
-
-.box-vision {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.box-vision img {
-  border-radius: 1rem;
-  width: 18rem;
-}
-
-.box-vision .graphic {
-  height: 15rem;
-  background: var(--bronze-color);
-  border-radius: 15rem 15rem 0 0;
-  position: absolute;
-  bottom: 0;
-  left: 2.5rem;
-  right: 2.5rem;
-  opacity: 0.9;
-  /* ellipse */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.box-vision .ellipse {
-  width: 5rem;
 }
 
 /* ASSURANCE STYLES */

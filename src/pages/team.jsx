@@ -38,7 +38,7 @@ const Team = () => {
               >
                 COMPANY MANAGEMENT & <br /> <span>COMPANY STRUCTURE</span>
               </motion.h2>
-              <p className="lead" data-aos="fade-up">
+              <p className="lead mb-0" data-aos="fade-up">
                 We are a team of diverse and experienced professionals who
                 function together like a finely tuned engine.
               </p>
