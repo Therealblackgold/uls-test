@@ -20,7 +20,7 @@ const Clients = () => {
       style={{
         overflow: "hidden",
         marginBottom: "0",
-        marginTop: "0",
+        marginTop: "5rem",
         position: "relative",
       }}
     >

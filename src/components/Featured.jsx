@@ -84,7 +84,7 @@ const Featured = () => {
               <div key={index} className="col-lg-6">
                 <div className="box-feat">
                   <span className="shadow">
-                    <i class={service.icon}></i>
+                    <i className={service.icon}></i>
                   </span>
                   <h2>{service.title}</h2>
                   <p className="lead">{service.content}</p>
@@ -102,7 +102,7 @@ const Featured = () => {
               <div key={index} className="col-lg-6">
                 <div className="box-feat">
                   <span className="shadow">
-                    <i class={service.icon}></i>
+                    <i className={service.icon}></i>
                   </span>
                   <h2>{service.title}</h2>
                   <p className="lead">{service.content}</p>
@@ -120,7 +120,7 @@ const Featured = () => {
               <div key={index} className="col-lg-6">
                 <div className="box-feat">
                   <span className="shadow">
-                    <i class={service.icon}></i>
+                    <i className={service.icon}></i>
                   </span>
                   <h2>{service.title}</h2>
                   <p className="lead">{service.content}</p>
