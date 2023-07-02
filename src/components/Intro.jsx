@@ -4,8 +4,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Logo from "../assets/UlsLogo.png";
 // import { Link } from "react-router-dom";
-import IMG08 from "../assets/TrainingGraphic-min.jpg";
-import IMG20 from "../assets/ServicesGraphic-min.png";
+import IMG08 from "../assets/TrainingGraphic-min 1.png";
+import IMG20 from "../assets/ServicesGraphic-min 1.png";
 import Link from "next/link";
 import Image from "next/image";
 

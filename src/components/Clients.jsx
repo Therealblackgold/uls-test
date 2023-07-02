@@ -20,7 +20,7 @@ const Clients = () => {
       style={{
         overflow: "hidden",
         marginBottom: "0",
-        marginTop: "5rem",
+        marginTop: "0",
         position: "relative",
       }}
     >
@@ -52,7 +52,7 @@ const Clients = () => {
                 src={IMG1}
                 alt="Upper Level Security, Security company in Brakpan"
                 style={{
-                  height: "350px",
+                  height: "330px",
                   width: "50rem",
                   position: "absolute",
                   right: "0",
@@ -64,7 +64,7 @@ const Clients = () => {
             </div>
 
             {/* SLID */}
-            <div className="col-md-12 mySlider" style={{ marginTop: "15rem" }}>
+            <div className="col-md-12 mySlider" style={{ marginTop: "10rem" }}>
               <div className="row">
                 <div className="testimonialsSection">
                   <div className="testimonials">

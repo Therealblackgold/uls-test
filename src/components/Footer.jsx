@@ -3,6 +3,7 @@ import Logo from "../assets/UlsLogo.png";
 import Image from "next/image";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
       <Container>
@@ -34,7 +35,7 @@ const Footer = () => {
                 </span>
               </a>
             </div>
-            <p>All Rights Reserved UPPER LEVEL SECURITY &copy; </p>
+            <p>All Rights Reserved UPPER LEVEL SECURITY {currentYear} &copy;</p>
           </div>
         </div>
       </Container>
