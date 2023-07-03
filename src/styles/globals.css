@@ -1,16 +1,16 @@
-@font-face {
+/* @font-face {
   font-family: "Avenir";
-  src: url("../assets/font/Avenir_Regular/AvenirRegular.ttf");
+  src: url("../assets/fonts/Avenir_Regular/AvenirRegular.ttf");
   font-weight: 400;
   font-display: swap;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "Avenir Black";
-  src: url("../assets/font/Avenir_Black/AvenirBlack.ttf");
+  src: url("../assets/fonts/Avenir_Black/AvenirBlack.ttf");
   font-weight: 400;
   font-display: swap;
-}
+} */
 
 :root {
   --main-color: #ebc56c;
@@ -106,7 +106,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  font-family: "Avenir";
   font-size: 16px !important;
   background: #f9f9f9 !important;
 }
@@ -145,6 +144,7 @@ p {
 
 .lead {
   font-size: 16px !important;
+  color: #000000b1;
 }
 
 img {
@@ -180,16 +180,14 @@ img {
 }
 
 .heading {
-  font-family: "Avenir Black";
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
   z-index: 90;
 }
 
 .heading span {
   letter-spacing: 5px;
-  font-weight: 400;
-  /* background-image: var(--bronze-color); */
+  font-weight: 700;
   background-image: var(--gold-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -225,8 +223,8 @@ img {
   /* border: 2px solid rgba(0, 0, 0, 0.113) !important; */
   background: var(--primary-color) !important;
   border: 2px solid var(--primary-color) !important;
-  /* color: #222 !important; */
-  font-weight: 600 !important;
+  color: #222 !important;
+  /* font-weight: 600 !important; */
 }
 
 .btn-primary:hover {
@@ -283,7 +281,7 @@ img {
 
 .header {
   min-height: 50vh;
-  background-image: url("./../assets/IntroGraphic-min.png");
+  background-image: url("./../assets/carousel-2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -329,7 +327,7 @@ Intro component styles
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url("./../assets/IntroGraphic-min.png");
+  background: url("./../assets/carousel-2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -342,7 +340,7 @@ Intro component styles
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("./../assets/IntroSplash.png");
+  background: url("./../assets/Intro-Splash.png");
   background-size: cover;
   background-position: center;
   mix-blend-mode: screen;
@@ -585,7 +583,7 @@ ContactUs component styles
 
 .contact {
   background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.838)),
-    url("./../assets/bg-network-photoaidcom-invert.jpeg");
+    url("./../assets/bg-network-dark.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -723,7 +721,7 @@ Footer component styles
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.838)),
-    url("./../assets/bg-network-photoaidcom-invert.jpeg");
+    url("./../assets/bg-network-dark.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

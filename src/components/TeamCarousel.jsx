@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import Logo from "../assets/UlsLogo.png";
+import Logo from "../assets/Logo.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";

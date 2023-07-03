@@ -1,6 +1,6 @@
 import { vipServices1, vipServices2, vipServices3 } from "../data";
-import VipGraphic from "../assets/VipGraphic-min.png";
-import IMG08 from "../assets/TrainingGraphic-min.jpg";
+import VipGraphic from "../assets/Vip-Graphic.png";
+import IMG08 from "../assets/intro-2.png";
 import { useEffect } from "react";
 import AOS from "aos";
 import Image from "next/image";

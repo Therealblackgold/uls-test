@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import TeamGraphic1 from "../assets/IntroGraphic-min.png";
-import TeamGraphic2 from "../assets/ServicesGraphic-min.png";
-import TeamGraphic3 from "../assets/AssuranceGraphic-min.png";
+import TeamGraphic2 from "../assets/team-1.png";
+import TeamGraphic1 from "../assets/team-2.png";
+import TeamGraphic3 from "../assets/team-3.png";
 import Quotation from "../assets/qu-marks.png";
 import AOS from "aos";
 import { useEffect } from "react";

@@ -10,7 +10,7 @@ import AOS from "aos";
 import { useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import IMG1 from "../assets/gallery/team05-min 1(1).png";
+import IMG1 from "../assets/team05.png";
 
 const List = () => {
   useEffect(() => {

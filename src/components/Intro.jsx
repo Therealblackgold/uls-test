@@ -2,10 +2,10 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Logo from "../assets/UlsLogo.png";
+import Logo from "../assets/Logo.png";
 // import { Link } from "react-router-dom";
-import IMG08 from "../assets/TrainingGraphic-min 1.png";
-import IMG20 from "../assets/ServicesGraphic-min 1.png";
+import IMG08 from "../assets/intro-2.png";
+import IMG20 from "../assets/intro-1.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -53,7 +53,7 @@ const Intro = () => {
               href="mailto:protected@upperlevelsecurity.co.za"
               target="new"
               className="btn btn-primary mx-auto mx-md-0"
-              style={{ width: "9rem" }}
+              style={{ width: "10rem" }}
               data-aos="zoom-in"
             >
               <i className="bi bi-chevron-right"></i>get quote

@@ -1,8 +1,3 @@
-import Image from "next/image";
-import IMG01 from "../assets/TrainingGraphic-min.jpg";
-import Link from "next/link";
-import Logo from "../assets/UlsLogo.png";
-
 const ExecutiveSummary = () => {
   const quote =
     '"Definiteness of purpose is the starting point of all achievement"';
@@ -11,7 +6,7 @@ const ExecutiveSummary = () => {
     <section className="executiveSection" id="mission">
       <div className="container">
         {/* VISION */}
-        <div className="row shadow mb-3">
+        <div className="row shadow mb-3 bg-white">
           <div className="col-12 col-lg-10 mx-auto py-3">
             <h2 className="text-center mb-3 heading">
               our <span>vision</span>
@@ -41,7 +36,7 @@ const ExecutiveSummary = () => {
         </div>
 
         {/* MISSION */}
-        <div className="row shadow mb-3">
+        <div className="row shadow mb-3 bg-white">
           <div
             className="col-12 col-lg-10 mx-auto py-3"
             style={{ position: "relative" }}
@@ -63,7 +58,7 @@ const ExecutiveSummary = () => {
           </div>
         </div>
         {/* PHILOSOPHY */}
-        <div className="row shadow">
+        <div className="row shadow bg-white">
           <div
             className="col-12 col-lg-10 mx-auto text-center py-3"
             style={{ position: "relative" }}

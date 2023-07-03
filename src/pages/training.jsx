@@ -1,12 +1,12 @@
 import AnimatePage from "../components/AnimatePage";
-import TrainingGraphicChart from "../assets/TrainingGraphicChart.png";
+import TrainingGraphicChart from "../assets/Training-Graphic.png";
 import { motion } from "framer-motion";
 import Header from "../components/Header";
 import Image from "next/image";
 import IMG04 from "../assets/img-04-min.jpg";
-import IMG05 from "../assets/gallery/cars05-min.jpg";
-import IMG06 from "../assets/gallery/cars04-min.jpg";
-import IMG07 from "../assets/gallery/cars15-min.jpg";
+import IMG05 from "../assets/cars05.jpg";
+import IMG06 from "../assets/cars04.jpg";
+import IMG07 from "../assets/cars15.jpg";
 
 const Training = () => {
   const quote = '"Avoiding danger is no safer in the long run than exposure."';
@@ -19,8 +19,8 @@ const Training = () => {
       >
         <div className="container">
           <div className="row">
-            {/* CONTENT */}
-            <div className="col-lg-8 mx-auto text-center">
+            {/* ROW ONE CONTENT */}
+            <div className="col-lg-6 mx-auto text-center">
               <motion.h2
                 className="heading mb-3"
                 initial={{ y: "-50px" }}
@@ -40,7 +40,6 @@ const Training = () => {
                   fully conversant and must abide by the regulations as set out
                   by the Private Security Regulatory Authority.
                 </p>
-                <p className="quote text-dark">{quote}</p>
                 <Image
                   src={TrainingGraphicChart}
                   alt="Upper Level Security, Security company in Brakpan"
@@ -50,22 +49,21 @@ const Training = () => {
                 />
               </div>
             </div>
-          </div>
 
-          <div className="row">
-            <div className="col-md-4 mx-auto mt-5">
+            {/* ROW ONE IMAGE */}
+            <div className="col-8 col-md-6 mx-auto text-center">
               <Image
+                className="rounded mt-3 mt-lg-0"
                 src={IMG04}
                 alt="Upper Level Security, Security company in Brakpan"
-                style={{ borderRadius: "20px" }}
                 loading="lazy"
               />
+              <p className="quote text-dark mt-3">{quote}</p>
             </div>
           </div>
 
           {/* SECOND ROW */}
           <div className="row">
-            {/* ANTI-BRIBERY POLICY */}
             <div className="col-lg-8 mx-auto text-center">
               <h2 className="heading text-center mt-5">
                 ANTI-BRIBERY <span>POLICY</span>
@@ -83,6 +81,7 @@ const Training = () => {
             </div>
           </div>
 
+          {/* THIRD ROW */}
           <div className="row">
             <div className="col-md-4 text-center mx-auto mb-3 mb-lg-0">
               <Image
