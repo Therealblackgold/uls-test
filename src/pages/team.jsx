@@ -6,6 +6,7 @@ import DirectorsNote from "../components/DirectorsNote";
 import Header from "../components/Header";
 import AOS from "aos";
 import { useEffect } from "react";
+import BackToTop from "@/components/BackToTop";
 
 const Team = () => {
   useEffect(() => {
@@ -100,6 +101,7 @@ const Team = () => {
           <TeamCarousel />
         </div>
       </section>
+      <BackToTop />
     </AnimatePage>
   );
 };

@@ -7,6 +7,7 @@ import IMG04 from "../assets/img-04-min.jpg";
 import IMG05 from "../assets/cars05.jpg";
 import IMG06 from "../assets/cars04.jpg";
 import IMG07 from "../assets/cars15.jpg";
+import BackToTop from "@/components/BackToTop";
 
 const Training = () => {
   const quote = '"Avoiding danger is no safer in the long run than exposure."';
@@ -110,6 +111,7 @@ const Training = () => {
           </div>
         </div>
       </section>
+      <BackToTop />
     </AnimatePage>
   );
 };

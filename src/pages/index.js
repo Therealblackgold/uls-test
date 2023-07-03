@@ -6,6 +6,7 @@ import Clients from "@/components/Clients";
 import Carousel from "@/components/Carousel";
 import ExecutiveSummary from "@/components/ExecutiveSummary";
 import Featured from "@/components/Featured";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
       <Assurance />
       <ContactUs />
       <Clients />
+      <BackToTop />
     </>
   );
 }
