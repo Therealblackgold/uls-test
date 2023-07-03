@@ -81,19 +81,6 @@ html {
   /* scroll-padding-top: 9rem; */
 }
 
-html::-webkit-scrollbar {
-  width: 0.8rem;
-}
-
-html::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-html::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 5rem;
-}
-
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
